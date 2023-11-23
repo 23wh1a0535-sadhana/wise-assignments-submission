@@ -1,0 +1,8 @@
+word = input("Enter a word: ")
+reversed_word = word[::-1]
+print("Reversed word:", reversed_word)
+string = input("Enter a string: ")
+digits = sum(c.isdigit() for c in string)
+letters = sum(c.isalpha() for c in string)
+print(f"Number of digits: {digits}")
+print(f"Number of letters: {letters}")
