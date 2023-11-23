@@ -1,0 +1,4 @@
+#this is to display reverse of a number
+word = input("enter a word: ")
+reverse_word = word[::-1]
+print("reverse word: ",reverse_word)
