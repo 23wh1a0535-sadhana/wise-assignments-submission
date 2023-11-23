@@ -1,0 +1,6 @@
+# Month to days
+month = input("Enter a month name (starting 3 letters) ")
+if month == 'jan' or month == 'mar' or month == 'may' or month == 'jul' or month == 'aug' or month == 'oct' or month == 'dec':
+    print("31 days")
+else:
+    print("30 days")
