@@ -1,0 +1,5 @@
+#this is to display the descending order of natural numbers ( given )
+  num = int(input("enter any number: "))
+while num >= 1:
+  print(num)
+  num-=1
