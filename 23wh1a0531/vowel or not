@@ -1,0 +1,6 @@
+# Vowel or not
+x = (input("Enter any letter "))
+if x == "a" or x == 'e' or x =='i' or x == 'o' or x =='u': 
+    print("It is a vowel")
+else:
+    print("It is a consonant")
