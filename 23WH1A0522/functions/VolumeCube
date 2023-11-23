@@ -1,0 +1,5 @@
+#calculate volume of a cube
+def vol_cube(a):
+    vol = a**3
+    return vol
+vol_cube(5)
