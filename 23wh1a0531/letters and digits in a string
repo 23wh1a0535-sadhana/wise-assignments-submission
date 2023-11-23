@@ -1,0 +1,11 @@
+# Count no. of letters and digits in string
+count = str(input("enter your roll number "))
+length = len(count)
+alpha = 0
+digit = 0
+for i in count:
+    if (i.isalpha()): # isalpha and isdigit are built in functions
+        alpha+=1
+    if (i.isdigit()):
+        digit+=1
+print(f"Letters:{alpha},Digits:{digit}")
