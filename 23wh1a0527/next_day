@@ -1,0 +1,30 @@
+#this is to display the next day of the given day
+day  = int(input("Enter the day: "))
+month = int(input("Enter the month: "))
+year = int(input("Enter the year: "))
+if year % 100 == 0 :
+    if year % 400 == 0 :
+        febdays = 29
+    else:
+        febdays = 28
+else:
+    if year % 4 == 0:
+        febdays = 29
+    else:
+        febdays = 28
+if month in [1 , 3 , 5 , 7 , 10 , 12]:
+    monthl = 31
+elif month == 2 :
+    monthl = febdays
+else:
+    monthl = 30
+if day < monthl:
+    day += 1
+else:
+    day = 1
+    if month < 12:
+        month = 1
+        year += 1
+    else:
+        month += 1
+print(f'The next days is {day} - {month} - {year}')
