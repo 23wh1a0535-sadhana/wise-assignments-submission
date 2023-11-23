@@ -1,0 +1,4 @@
+def list_digits():
+    num = (input("enter any number: "))
+    print(list(str(num)))
+list_digits()
