@@ -1,7 +1,0 @@
-# Star pattern
-for i in range(6):
-    print("*"*i)
-x = 4
-while x > 0:
-    print("*"*x)
-    x-=1
