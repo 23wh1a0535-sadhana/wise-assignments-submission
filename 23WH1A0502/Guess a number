@@ -1,0 +1,5 @@
+a=int(input("enter any number"))
+if (a>=9):
+    print(a)
+else:
+    print("well guessed")
