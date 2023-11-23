@@ -1,0 +1,9 @@
+#this is to display whether a given alphabet is vowel or consonant
+alphabet = input("enter an alphabet: ").lower()
+if alphabet.isalpha() and len(alphabet) == 1:
+    if alphabet in 'aeiou':
+      print(f"{alphabet} is a vowel.")
+    else:
+      print(f"{alphabet} is a consonant.")
+else:
+  print("please enter an alphabet.")
