@@ -1,0 +1,5 @@
+a = int(input("Enter a number"))
+while (a>9) or (a<1) :
+  a = int(input("Enter a number"))  
+else:
+    print("Well guessed")
