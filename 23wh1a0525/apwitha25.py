@@ -1,0 +1,11 @@
+#Write a program to create a random arithemetic progression from initial number as 25.
+
+from random import randint
+initerm = 25
+commondiff = randint(0 , 100)
+AP = []
+last_term = int(input(("Enter the number of terms to be printed: ")))
+for i in range(last_term):
+    AP.append(initerm + i * commondiff)
+print(AP)
+
