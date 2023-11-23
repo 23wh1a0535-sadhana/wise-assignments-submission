@@ -1,0 +1,5 @@
+def squareroot():
+    import math 
+    num = int(input("enter a number: "))
+    print(math.sqrt(num)) 
+squareroot()
