@@ -1,0 +1,16 @@
+ num_strings = int(input("Enter the number of strings: "))
+    strings_list = []
+
+    # Get input strings from the user
+    for i in range(num_strings):
+        string = input(f"Enter string {i+1}: ")
+        strings_list.append(string)
+
+    # Find the largest string in the list
+    largest_string = max(strings_list, key=len)
+    
+    print(f"The largest string is: {largest_string}")
+except ValueError:
+    print("Please enter a valid number.")
+except Exception as e:
+    print("An error occurred:", e)

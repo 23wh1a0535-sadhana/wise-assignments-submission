@@ -1,0 +1,16 @@
+num_elements = int(input("Enter the number of elements in the list: "))
+    numbers_list = []
+
+    # Get input numbers from the user
+    for i in range(num_elements):
+        num = float(input(f"Enter number {i+1}: "))
+        numbers_list.append(num)
+
+    # Calculate the sum of numbers in the list
+    total_sum = sum(numbers_list)
+    
+    print(f"The sum of numbers in the list is: {total_sum}")
+except ValueError:
+    print("Please enter valid numbers.")
+except Exception as e:
+    print("An error occurred:", e)
