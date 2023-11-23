@@ -1,0 +1,4 @@
+n=int(input("enter any number"))
+while x in (0,num):
+print(num)
+x--
