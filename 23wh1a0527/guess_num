@@ -1,0 +1,9 @@
+#this program is to guess a number between 1 - 9
+num = 3
+guess = None
+while guess != num:
+  guess = int(input("guess a number between 1-9"))
+  if guess == num:
+      print("yes! you are right, congrats.")
+  else:
+      print("ohno, you are wrong, try again")
