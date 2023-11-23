@@ -1,0 +1,5 @@
+# n natural numbers in decending order
+num = int(input("Enter any number "))
+while num >= 1:
+    print(num)
+    num-=1
