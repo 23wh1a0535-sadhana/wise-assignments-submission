@@ -1,0 +1,9 @@
+# Guessing random number
+num = 4
+guess = None
+while guess != num:
+    guess = int(input("Guess a number btw 1 and 9 "))
+    if guess == num:
+        print("Yay ! you guessed the number")
+    else:
+        print("Nope ! Try again ")
