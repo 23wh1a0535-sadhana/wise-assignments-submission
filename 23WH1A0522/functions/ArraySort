@@ -1,0 +1,5 @@
+def sortarray():
+    array = [10,34,56,78,23,58,3,67,1,56]
+    array.sort()
+    print(array)
+sortarray()
