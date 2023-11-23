@@ -1,0 +1,3 @@
+# Reverse word
+word = (input("Enter any word  "))[::-1]
+print(word)
