@@ -1,0 +1,9 @@
+def remove_vowels():
+    string = input("enter a string: ")
+    newstr = string
+    vowels = ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
+    for x in string:
+        if x in vowels:
+            newstr = newstr.replace(x,"")
+    print(f"string after removing the vowels: {newstr}")
+remove_vowels()
