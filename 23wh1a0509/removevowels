@@ -1,0 +1,10 @@
+input_string = "siri"
+result = input_string
+
+vowels = ('a', 'e', 'i', 'o', 'u')
+
+for x in input_string.lower():
+    if x in vowels:
+        result = result.replace(x, "")
+
+print('After removing vowels : ', result)
