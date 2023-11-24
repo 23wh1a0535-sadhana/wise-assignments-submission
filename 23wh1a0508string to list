@@ -1,5 +1,0 @@
-
-#6 code
-s = "Teena Pranathi"
-x = list(s)
-print(x)
