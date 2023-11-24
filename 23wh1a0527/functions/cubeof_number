@@ -1,0 +1,5 @@
+#this is to caluculate the cube of a given number
+def vol_cube(side):
+    volume = side**3
+    return volume
+vol_cube(3)
