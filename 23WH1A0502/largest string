@@ -1,0 +1,11 @@
+num_strings = int(input("Enter the number of strings in the list: "))
+
+string_list = []
+
+for i in range(num_strings):
+    user_string = input(f"Enter string {i + 1}: ")
+    string_list.append(user_string)
+
+largest_string = max(string_list, key=len)
+
+print(f"The largest string is: {largest_string}")
