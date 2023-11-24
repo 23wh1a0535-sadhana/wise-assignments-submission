@@ -1,0 +1,12 @@
+def test(words):
+    return  max(words, key=len)
+animals =  ['cat', 'cheetah', 'polar bear', 'panda']
+print("Original strings:")
+print(animals)
+print("Longest string of the said list of strings:")
+print(test(animals))
+animals =  ['cat', 'dog', 'cow', 'lion', 'tiger', 'cheetah']
+print("\nOriginal strings:")
+print(animals)
+print("Longest string of the said list of strings:")
+print(test(animals))
