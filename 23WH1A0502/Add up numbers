@@ -1,0 +1,7 @@
+num_elements = int(input("Enter the number of elements in the list: "))
+number_list = []
+for i in range(num_elements):
+    user_number = float(input(f"Enter number {i + 1}: "))
+    number_list.append(user_number)
+sum_of_numbers = sum(number_list)
+print(f"The sum of the numbers is: {sum_of_numbers}")
