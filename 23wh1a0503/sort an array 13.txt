@@ -1,0 +1,16 @@
+num_elements = int(input("Enter the number of elements in the array: "))
+    numbers_array = []
+
+    # Get input numbers from the user
+    for i in range(num_elements):
+        num = float(input(f"Enter number {i+1}: "))
+        numbers_array.append(num)
+
+    # Sort the array in ascending order
+    numbers_array.sort()
+    
+    print(f"The sorted array is: {numbers_array}")
+except ValueError:
+    print("Please enter valid numbers.")
+except Exception as e:
+    print("An error occurred:", e)

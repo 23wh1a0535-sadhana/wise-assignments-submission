@@ -1,0 +1,15 @@
+def print_descending(n):
+    if n <= 0:
+        print("Please enter a positive integer.")
+    else:
+        print(f"First {n} natural numbers in descending order:")
+        while n > 0:
+            print(n, end=' ')
+            n -= 1
+
+# Get input from the user
+try:
+    num = int(input("Enter the value of 'n': "))
+    print_descending(num)
+except ValueError:
+    print("Please enter a valid integer.")

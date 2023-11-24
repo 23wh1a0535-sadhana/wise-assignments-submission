@@ -1,0 +1,19 @@
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return abs(a * b) // gcd(a, b)
+
+# Get input from the user
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    result = lcm(num1, num2)
+    print(f"The LCM of {num1} and {num2} is: {result}")
+except ValueError:
+    print("Please enter valid numbers.")
+except Exception as e:
+    print("An error occurred:", e)

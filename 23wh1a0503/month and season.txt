@@ -1,0 +1,28 @@
+def get_season(month, day):
+    # Define the ranges for each season based on months and days
+    seasons = {
+        'Spring': ((3, 20), (6, 20)),
+        'Summer': ((6, 21), (9, 22)),
+        'Autumn': ((9, 23), (12, 20)),
+        'Winter': ((12, 21), (3, 19))
+    }
+
+    # Check the date against the defined ranges for each season
+    for season, (start_date, end_date) in seasons.items():
+        if (month == start_date[0] and day >= start_date[1]) or (month == end_date[0] and day <= end_date[1]):
+            return season
+
+    return 'Invalid Date'
+
+# Read input from the user
+try:
+    month = int(input("Enter the month (as a number): "))
+    day = int(input("Enter the day: "))
+    
+    if month < 1 or month > 12 or day < 1 or day > 31:
+        print("Please enter valid month (1-12) and day (1-31)")
+    else:
+        season = get_season(month, day)
+        print(f"The season for {month}/{day} is {season}")
+except ValueError:
+    print("Please enter valid integers for month and day")
