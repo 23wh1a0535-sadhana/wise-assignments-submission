@@ -1,0 +1,4 @@
+user_input = input("Enter space-separated numbers for the array: ")
+array = [int(num) for num in user_input.split()]
+sorted_array = sorted(array)
+print("Sorted Array:", sorted_array)
