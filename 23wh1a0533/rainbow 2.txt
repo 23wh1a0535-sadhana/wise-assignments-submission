@@ -1,0 +1,9 @@
+def print_rainbow_colors():
+    rainbow_colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+
+    print("The seven colors of the rainbow are:")
+    for color in rainbow_colors:
+        print(color)
+
+# Call the function to print the rainbow colors
+print_rainbow_colors()

@@ -1,0 +1,17 @@
+def check_city_in_telangana(city):
+    telangana_cities = ["Hyderabad", "Warangal", "Karimnagar", "Nizamabad", "Khammam", "Ramagundam", "Mahbubnagar", "Nalgonda", "Adilabad", "Siddipet", "Miryalaguda"]
+
+    if city.capitalize() in telangana_cities:
+        return True
+    else:
+        return False
+
+# Get input from the user
+try:
+    user_city = input("Enter a city name: ")
+    if check_city_in_telangana(user_city):
+        print(f"{user_city} is in Telangana.")
+    else:
+        print(f"{user_city} is not in Telangana.")
+except Exception as e:
+    print("An error occurred:", e)

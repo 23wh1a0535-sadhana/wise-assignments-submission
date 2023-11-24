@@ -1,14 +1,4 @@
-def print_pattern(rows):
-    # Upper part of the pattern
-    for i in range(1, rows + 1):
-        print('* ' * i)
-
-    # Lower part of the pattern
-    for i in range(rows - 1, 0, -1):
-        print('* ' * i)
-
-# Set the number of rows for the pattern
-num_rows = 5
-
-# Call the function to print the pattern
-print_pattern(num_rows)
+for i in range(1, 6):
+    print('* ' * i)
+for i in range(4, 0, -1):
+    print('* ' * i)

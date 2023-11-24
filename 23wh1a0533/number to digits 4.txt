@@ -1,0 +1,10 @@
+def number_to_digits(number):
+    return [int(digit) for digit in str(number)]
+
+# Get input from the user
+try:
+    num = int(input("Enter a number: "))
+    digits_list = number_to_digits(num)
+    print(f"The list of digits for the number {num} is: {digits_list}")
+except ValueError:
+    print("Please enter a valid number.")

@@ -1,0 +1,13 @@
+def reverse_digits(number):
+    if number < 0:
+        return int(str(number)[::-1][:-1]) * -1
+    else:
+        return int(str(number)[::-1])
+
+# Get input from the user
+try:
+    num = int(input("Enter a number: "))
+    reversed_num = reverse_digits(num)
+    print(f"The reversed number is: {reversed_num}")
+except ValueError:
+    print("Please enter a valid number.")
