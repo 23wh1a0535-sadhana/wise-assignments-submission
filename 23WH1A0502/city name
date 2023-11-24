@@ -1,0 +1,11 @@
+telangana_cities = ["Hyderabad", "Warangal", "Nizamabad", "Karimnagar", "Khammam", "Ramagundam", "Mahbubnagar", "Nalgonda", "Adilabad", "Suryapet"]
+
+def is_city_in_telangana(city):
+    return city in telangana_cities
+
+user_city = input("Enter the city name: ")
+
+if is_city_in_telangana(user_city):
+    print("{user_city} is in Telangana!")
+else:
+    print("Sorry, {user_city} is not in Telangana.")
