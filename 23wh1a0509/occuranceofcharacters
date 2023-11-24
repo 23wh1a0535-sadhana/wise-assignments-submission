@@ -1,0 +1,8 @@
+my_string = "Python is a coding language"
+my_char = "g"
+
+for i in my_string:
+    if i == my_char:
+        count += 1
+
+print(count)
