@@ -1,0 +1,4 @@
+def rainbow():
+    colours=["violet","blue","indigo","orange","green","red","yellow"]
+    print(colours)
+rainbow()
