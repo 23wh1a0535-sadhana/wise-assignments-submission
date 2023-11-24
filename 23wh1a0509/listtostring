@@ -1,0 +1,6 @@
+a_list = ["Python", "Is", "A", "Coding", "Language"]
+
+string = " ".join( a_list )
+
+print (string)
+print (type(string))
