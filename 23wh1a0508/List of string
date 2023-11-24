@@ -1,0 +1,5 @@
+
+#6 code
+s = "Pravallika Karanam"
+x = list(s)
+print(x)
