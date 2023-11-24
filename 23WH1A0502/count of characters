@@ -1,0 +1,5 @@
+user_string = input("Enter a string: ")
+character_counts = {char: user_string.count(char) for char in set(user_string)}
+print("Character counts:")
+for char, count in character_counts.items():
+    print(f"{char}: {count}")
