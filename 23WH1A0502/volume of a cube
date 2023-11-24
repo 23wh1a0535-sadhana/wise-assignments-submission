@@ -1,0 +1,4 @@
+def vol_cube(b):
+    volume=b**3
+    return volume
+vol_cube(9)
