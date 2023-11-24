@@ -1,5 +1,3 @@
-#1st code.import random
-
 number_to_guess = random.randint(1, 9)
 guessed = False
 
