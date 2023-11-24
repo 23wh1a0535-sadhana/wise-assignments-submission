@@ -1,0 +1,3 @@
+list = ["apple","banana","cherry"]
+res_string = " ,".join(list)
+print(res_string)
