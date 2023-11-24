@@ -1,0 +1,4 @@
+#AssignmentQ6
+s=input("Enter a string")
+x=[i for i in s]
+print(x)
