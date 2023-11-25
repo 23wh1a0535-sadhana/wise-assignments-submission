@@ -1,0 +1,11 @@
+#Reverse of a string
+def reverse_word(word):
+    reversed_word = word[::-1]
+    return reversed_word
+
+# Get input from the user
+user_input = input("Enter a word: ")
+
+# Reverse the word and print the result
+result = reverse_word(user_input)
+print("Reversed word:", result)
