@@ -1,0 +1,11 @@
+#Number of Alphabets and Digits
+a=str(input("Enter a string: "))
+d=0
+alphabet=0
+for i in a:
+    if i.isalpha():
+        alphabet=alphabet+1
+    if i.isdigit():
+        d=d+1
+print(d)
+print(alphabet)
