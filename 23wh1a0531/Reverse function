@@ -1,0 +1,6 @@
+# Reverse of string
+def reverse(s):
+    print(s [::-1])
+
+s = input("Enter any string")
+reverse(s)
