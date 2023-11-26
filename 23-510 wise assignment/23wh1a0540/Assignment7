@@ -1,0 +1,8 @@
+#AssignmentQ7
+def listToString(s):
+    str1 = ""
+    for l in s:
+        str1 += l
+    return str1
+s = ['I', 'am', 'student']
+print(listToString(s))
