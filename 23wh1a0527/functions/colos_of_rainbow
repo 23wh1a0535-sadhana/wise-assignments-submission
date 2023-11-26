@@ -1,0 +1,6 @@
+#this is to display all ths seven colors of the rainbow
+def rainbow(s):
+    colors = " "
+    return(colors.join(s))
+    s = ["Violet","Indigo","Blue","Green","Yellow","Orange","Red"]
+print(rainbow(s))
