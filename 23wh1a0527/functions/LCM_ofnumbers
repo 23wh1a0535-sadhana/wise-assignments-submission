@@ -1,0 +1,13 @@
+#this is to display the LCM of 2 numbers
+def lcm(num1 , num2):
+    if num1 > num2:
+        greatest = num1
+    else:
+        greatest = num2
+    while True:
+        if ((greatest % num1 == 0) and (greatest % num2 == 0)):
+            LCM = greatest
+            break
+        greatest += 1
+    return LCM
+print(lcm(1,2))
