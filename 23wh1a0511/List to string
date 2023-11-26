@@ -1,0 +1,6 @@
+#list to string conversion
+def metro(st):
+    str1 = " "
+    return(str1.join(st))
+st = ["miyapur","KPHP","kukatpally","JNTU"]
+print(metro(st))
