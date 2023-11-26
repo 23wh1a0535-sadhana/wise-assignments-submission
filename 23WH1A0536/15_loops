@@ -1,0 +1,6 @@
+# to print n natural numbers in descending order using while loop
+number = int(input("Please Enter any Number: "))
+i = number
+while ( i >= 1):
+    print (i, end = '  ')
+    i = i - 1
