@@ -1,0 +1,7 @@
+#this is to display the largest string from the given list 
+list1 = [] 
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    list1.append(input())  
+result = max(list1, key = len)
+print("largest String is :", result) 
