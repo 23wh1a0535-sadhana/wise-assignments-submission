@@ -1,0 +1,4 @@
+s = "parinaya"
+x = list(s)
+print(x)
+     
