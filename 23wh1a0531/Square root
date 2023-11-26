@@ -1,0 +1,6 @@
+# Square root of a number
+import math
+def sq_root(a):
+    print(math.sqrt(a))
+
+sq_root(25)
