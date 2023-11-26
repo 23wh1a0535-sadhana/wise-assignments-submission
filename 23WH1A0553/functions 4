@@ -1,0 +1,6 @@
+def list1():
+    num = 123
+    print("Given number :  ", num)
+    res = [int(x) for x in str(num)]
+    return res
+list1()
