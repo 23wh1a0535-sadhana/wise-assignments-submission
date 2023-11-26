@@ -1,0 +1,9 @@
+#create ap as intial number as 25
+a = 25
+n = int(input("n = "))
+d = -5
+i = 0
+while i<n:
+    t = a + i*d
+    print(t)
+    i+=1
