@@ -1,0 +1,5 @@
+def countChar():
+    str1 = "neena"
+    a = list(str1)
+    print(a.count('e'))
+countChar()
