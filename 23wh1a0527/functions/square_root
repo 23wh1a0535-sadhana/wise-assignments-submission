@@ -1,0 +1,6 @@
+#this is to display the sqaure root of a given number
+def squareroot():
+    import math 
+    number = int(input("enter a number: "))
+    print(math.sqrt(number)) 
+squareroot()
