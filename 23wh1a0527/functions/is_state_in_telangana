@@ -1,0 +1,11 @@
+#this is to display whether the given state is present in telangana or not
+def state_telangana(string):
+    cities = ["Hyderabad", "Warangal", "Nizamabad", "Nalgonda", "Khammam", "Karimnagar"]
+    count = 0
+    for x in range(0,6):
+        if string == cities[x]:
+            count += 1
+    if count > 0:
+        print("City is in Telangana")
+    else:
+            print("City is not in Telangana")
