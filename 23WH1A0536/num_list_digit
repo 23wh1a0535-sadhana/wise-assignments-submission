@@ -1,0 +1,5 @@
+#to convert a number into a list of its digits
+num = int(input("Enter a number"))
+print("Given number : \n", num)
+list = [int(x) for x in str(num)]
+print("List of number: \n",res)
