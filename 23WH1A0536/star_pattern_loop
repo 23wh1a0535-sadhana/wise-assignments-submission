@@ -1,0 +1,5 @@
+#to create a star pattern given
+for i in range(1,6):
+    for i in range(i):
+        print("* "*i)
+    print("\n")
