@@ -1,0 +1,7 @@
+def city_telangana():
+    city = (input("enter a city name: "))
+    if city == 	"hyderabad" or city == "warangal" or city == "nizamabad" or city == "khammam" or city == "karimnagar" or city == "ramagundam" or city =="mahabubnagar" or city =="nalgonda" or city =="adilabad" or city =="suryapet" or city =="miryalaguda" or city == "siddipet" or city =="jagtial" or city =="mancherial" or city =="armoor" :
+        print(f"{city} is a city in telangana.")
+    else :
+        print(f"{city} is not a city in telangana.")
+city_telangana()
