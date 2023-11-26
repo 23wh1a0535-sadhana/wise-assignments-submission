@@ -1,0 +1,136 @@
+Functions 
+1.def vol_cube(a):
+    volume = a**3
+    return volume
+s=int(input("Enter side"))
+vol_cube(s)
+
+2.def rainbow(s):
+    colours = ""
+    return(colours.join(s))
+s = [" Voilet"," Indigo"," Blue"," Green"," Yellow"," Orange"," Red"]
+print(rainbow(s))
+
+3.#Reverse a string
+
+name ="radhika"[::-1]
+print(name)
+
+4.num = int(input("Enter a number"))
+print("Given number :  ", num)
+list = [int(x) for x in str(num)]
+
+print("List of number: \n",list)
+
+5.def right_angled(a, b, c):
+    if (a*a+b*b==c*c) or (c*c+b*b==a*a) or (a*a+c*c==b*b) :
+        return "The triangle is right-angled." 
+    else:
+        return "The triangle is not right-angled."
+right_angled(3,4,5)
+
+6.string=input("Enter a string")
+list=[i for i in string]
+print(list)
+
+7.def listToString(s):
+    str1 = ""
+    for l in s:
+        str1 += l
+    return str1
+s = ['I', 'am', 'student']
+print(listToString(s))
+
+8.
+c=0;
+cname=input("Enter a city name")
+cities=[Hyderabad,Secunderabad,Warangal]
+while cname in cities:
+      c=1
+if(c==1):
+    print("Present in State of Telangana")
+    
+9.string = input("Enter a string: ")
+count = 0
+for s in string:
+      count = count+1
+print("Length : ", count)
+
+10.num = int(input("Enter number: "))  
+revs_number = 0  
+while (num > 0):  
+    remainder = num % 10  
+    revs_number = (revs_number * 10) + remainder  
+    num = num // 10  
+print(" reverse is :",revs_number)
+
+11.test_list = [ 'Cookies', 'Chocolate', 'Green', 'Apple']
+lengths = [len(s) for s in test_list]
+longest_index = lengths.index(max(lengths))
+longest_string = test_list[longest_index]
+print("Longest string is : " + longest_string)
+
+12.total = 0
+list1 = [11, 5, 17, 18, 23]
+for ele in range(0, len(list1)):
+    total = total + list1[ele]
+print("Sum of all elements in given list: ", total)
+
+13.arr = [5, 9, 1, 10, 3, 8, 4, 2, 7, 6]  
+temp = 0
+max_size = len(arr)
+print("The elements of the array before sorting: ");
+for i in range(0, max_size):
+   print(arr[i], end=" ")  
+
+print()   
+for i in range(0, max_size):
+   for j in range(i+1, len(arr)):
+      if(arr[i] > arr[j]):
+         temp = arr[i]
+         arr[i] = arr[j]
+         arr[j] = temp
+print("The elements of the array after sorting: ")
+
+for i in range(0, max_size):
+   print(arr[i], end=" ")
+
+14.def compute_lcm(x, y):
+
+   # choose the greater number
+   if x > y:
+       greater = x
+   else:
+       greater = y
+
+   while(True):
+       if((greater % x == 0) and (greater % y == 0)):
+           lcm = greater
+           break
+       greater += 1
+
+   return lcm
+
+num1 = int(input("Enter a number"))
+num2 = int(input("Enter a number"))
+
+print("The L.C.M. is", compute_lcm(num1, num2))
+
+15.def isPalindrome(s):
+    return s == s[::-1]
+ 
+s = input("Enter a string")
+ans = isPalindrome(s)
+ 
+if ans:
+    print("Yes")
+else:
+    print("No")
+
+17.x = input('Enter value of x: ')
+y = input('Enter value of y: ')
+temp = x
+x = y
+y = temp
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
