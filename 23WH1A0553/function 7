@@ -1,0 +1,7 @@
+def listToString(s):
+    str1 = ""
+    for i in s:
+        str1 += i
+    return str1
+s = ['h','fit']
+listToString(s)
