@@ -1,0 +1,15 @@
+# LCM of 2 numbers
+def lcm(a,b):
+    if a > b:
+        larger = a
+    else:
+        larger = b
+    while True:
+        if larger % a == 0 and larger % b == 0:
+            lcm = larger
+            break
+        else:
+            larger +=  1
+    print(lcm)
+
+lcm(6,7)
