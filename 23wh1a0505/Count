@@ -1,0 +1,5 @@
+def count():
+    string = input("enter a string: ")
+    char = input("enter the character to be counted in string: ")
+    print(string.count(char))
+count()
