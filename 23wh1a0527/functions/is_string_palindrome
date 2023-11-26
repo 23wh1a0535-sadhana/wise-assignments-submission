@@ -1,0 +1,9 @@
+#this is to display whether the given string is a palindrome or not
+def is_palindrome():
+    word = input("enter a word: ")
+    reverse_word = word[::-1]
+    if word == reverse_word:
+        print(f"{word} is a palindrome")
+    else:
+        print(f"{word} is not a palindrome")
+is_palindrome()
