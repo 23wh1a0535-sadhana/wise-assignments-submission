@@ -1,0 +1,4 @@
+def rainbow(s):
+    colours = ""
+    return(colours.join(s))
+s = [" Voilet"," Indigo"," Blue"," Green"," Yellow"," Orange"," Red"]
