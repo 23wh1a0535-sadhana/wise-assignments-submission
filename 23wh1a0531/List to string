@@ -1,0 +1,7 @@
+# List to string
+def list_string(s):
+    string = " "
+    return(string.join(s))
+
+s = ['Hi', 'I', 'am', 'Leighna']
+print(list_string(s))
