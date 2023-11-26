@@ -1,0 +1,10 @@
+def listnumsum(List):
+    sum = 0
+    for i in range (len(List)):
+        sum += List[i]
+    return sum
+elementno  = int(input("Enter the number of numbers in the list: "))
+numlist = []
+for i in range (elementno):
+    numlist.append(int(input("Enter a number: ")))
+print(listnumsum(numlist))
