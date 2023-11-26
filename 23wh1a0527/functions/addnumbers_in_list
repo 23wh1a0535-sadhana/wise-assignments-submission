@@ -1,0 +1,6 @@
+#this is to display the addition of numbers in a given list
+total = 0
+list1 = [3, 33, 11, 3, 2]
+for element in range(0, len(list1)):
+    total = total + list1[element]
+print("Sum of all elements in given list: ", total)
