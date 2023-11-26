@@ -1,0 +1,5 @@
+# Write a program to print seven colours in a rainbow.
+def rainbow():
+    colours = ["Violet","Indigo","Blue","Green","Yellow","Orange","Red"]
+    print(colours)
+rainbow()
