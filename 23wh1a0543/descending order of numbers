@@ -1,0 +1,5 @@
+number = int(input("enter a no"))
+i=number
+while(i>=1):
+    print(i)
+    i=i-1
