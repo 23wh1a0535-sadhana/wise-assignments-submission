@@ -1,0 +1,7 @@
+#max length in a string
+list1 = [] 
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    list1.append(input())  
+res = max(list1, key = len)
+print("Longest String is :", res) 
