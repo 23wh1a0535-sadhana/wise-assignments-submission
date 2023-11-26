@@ -1,0 +1,4 @@
+def reverse():
+    num = (input("enter a number: "))
+    print("number is reverse order:",num[::-1])
+reverse()
