@@ -1,4 +1,0 @@
-#Reverse a string
-
-name ="radhika"[::-1]
-print(name)
