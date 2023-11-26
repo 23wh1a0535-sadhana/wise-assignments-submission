@@ -1,5 +1,0 @@
-num = int(input("enter a number: "))
-print("numbers in descending order is:")
-while num > 0:
-    print(num)
-    num = num - 1
