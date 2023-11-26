@@ -1,0 +1,5 @@
+def largest_num():
+    list1 = [3,7,2]
+    list2 = sorted(list1)
+    p = list2[-1]
+    return p
