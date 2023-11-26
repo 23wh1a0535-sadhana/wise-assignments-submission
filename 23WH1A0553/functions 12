@@ -1,0 +1,8 @@
+def add():
+    list1 = [1,2,3,4,5]
+    sum = 0
+    p = len(list1)
+    for i in range(0,p):
+        sum += list1[i]
+    return sum
+add()
