@@ -1,0 +1,3 @@
+Word = input("Enter a Word:")
+reversed_Word = Word[::-1]
+print("Reversed Word:", reversed_Word)
