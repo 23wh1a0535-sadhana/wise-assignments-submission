@@ -1,0 +1,5 @@
+#this is to display conversion of decimal number to binary number
+  def decitoBin():
+    num = int(input("enter a number: "))
+    print(bin(num).replace("0b", ""))
+decitoBin()
