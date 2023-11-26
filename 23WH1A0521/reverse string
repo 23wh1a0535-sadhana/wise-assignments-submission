@@ -1,0 +1,5 @@
+ef rev_string(s):
+     s = "hemalatha"
+     for i in s:
+        s = i + s
+     return s
