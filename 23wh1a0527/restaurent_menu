@@ -1,0 +1,38 @@
+#this is to display the menu of a restaurent
+def menu():
+  dishes = ["1.Rice","2.Chicken","3.Noodles"]
+  for i in dishes:
+       print(i)
+
+def submenu():
+    choice1 = int(input("enter your choice: "))
+    Rice_dishes = {"1.Veg Fried Rice":180,"2.Veg Biryani":270,"3.Veg Puloa":220,"4.Ghee Rice":190,"5.Curd Rice":100}
+    Chicken_dishes = {"1.Chicken Biryani":330,"2.Chicken Mandi":450,"3.Chicken lollipop":250,"4.Chicken Noodles":220,"5.Chicken 65":230,"6.Chicken manchuria":180,"7.Chicken Shawarma":190}
+    Noodles_dishes = {"1.Veg Noodles":50,"2.Egg Noodle":100,"3.Chicken Noodles":220,"4.Manchurain Noodles":180,"5.Mushroom Noodles":80,"6.Panner Noodles":90}
+    ricekey = list(Rice_dishes.keys())
+    ricevalues = list(Rice_dishes.values())
+    chickenkey = list(Chicken_dishes.keys())
+    chickenvalues = list(Chicken_dishes.values())
+    noodlekey = list(Noodles_dishes.keys())
+    noodlevalues = list(Noodles_dishes.values())
+    if choice1 == 1:
+        for i in ricekey:
+            print(i)
+        choice2 = int(input("Enter the dish number: "))
+        a = choice2 - 1
+        print(ricevalues[a])
+    elif choice1 == 2:
+        for i in chickenkey:
+            print(i)
+        choice2 = int(input("Enter the dish number: "))
+        a = choice2 - 1
+        print(chickenvalues[a])
+    elif choice1 == 3:
+        for i in noodlekey:
+            print(i)
+        choice2 = int(input("Enter the dish number: "))
+        a = choice2 - 1
+        print(noodlevalues[a])
+    else:
+        print("Sorry, Wrong choice! would you like to choose something else?")
+submenu()
