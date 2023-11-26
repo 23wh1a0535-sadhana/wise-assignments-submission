@@ -1,0 +1,7 @@
+def strlen():
+    string = "abcde"
+    count = 0
+    for s in string:
+       count = count+1
+    return count
+strlen()
