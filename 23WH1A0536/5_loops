@@ -1,0 +1,5 @@
+#to accept a string and calculate the number of digits and letters in it 
+string = input("Enter a string: ")
+letters = sum(c.isalpha() for c in string)
+digits = sum(c.isdigit() for c in string)
+print(f"Letters: {letters}, Digits: {digits}")
