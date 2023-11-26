@@ -1,0 +1,5 @@
+#Write a program to calculate length of a string entered by a user.
+def strlen(string):
+    length = len(string)
+    return length
+print(strlen(input("Enter a string: ")))
