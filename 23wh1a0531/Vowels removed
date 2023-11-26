@@ -1,0 +1,11 @@
+# Remove vowels in string
+def vowels(string):
+    vowels = ['a' , 'e' , 'i' , 'o' , 'u' , 'A' , 'E' , 'I' , 'O' , 'U']
+    for x in string:
+        if x in vowels:
+            string = string.replace(x , "")
+    return string
+
+string = 'Hi I am Leighna'
+string = vowels(string)
+print(string)
