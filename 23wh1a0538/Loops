@@ -1,0 +1,112 @@
+1st code.import random
+
+number_to_guess = random.randint(1, 9)
+guessed = False
+
+while not guessed:
+    guess = int(input("Guess a number between 1 and 9: "))
+    if guess == number_to_guess:
+        print("Congratulations! You guessed the correct number.")
+        guessed = True
+    else:
+        print("Try again.")
+2nd code
+for i in range(1, 6):
+    print('* ' * i)
+for i in range(4, 0, -1):
+    print('* ' * i)
+3rd code
+for i in range(7):
+    if i != 3 and i != 6:
+        print(i)
+4th code
+string = input("Enter a string: ")
+letters = sum(c.isalpha() for c in string)
+digits = sum(c.isdigit() for c in string)
+print(f"Letters: {letters}, Digits: {digits}")
+5th code
+s = input("Input a string")
+d=l=0
+for c in s:
+    if c.isdigit():
+        d=d+1
+    elif c.isalpha():
+        l=l+1
+    else:
+        pass
+print("Letters", l)
+print("Digits", d)
+6th code
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input("Enter a number: "))
+print("Factorial:", factorial(num))
+7th code
+import random
+
+initial_number = 25
+progression = [initial_number]
+
+for _ in range(4):  # Adjust the range to change the number of terms in the progression
+    initial_number += random.randint(1, 10)
+    progression.append(initial_number)
+
+print("Random Arithmetic Progression:",
+8th code 
+word = input("Enter a word: ")
+reversed_word = word[::-1]
+print("Reversed word:", reversed_word)
+9th 
+string = input("Enter a string: ")
+digits = sum(c.isdigit() for c in string)
+letters = sum(c.isalpha() for c in string)
+print(f"Number of digits: {digits}")
+print(f"Number of letters: {letters}")
+10th 
+alphabet = input("Enter an alphabet: ").lower()
+if alphabet.isalpha() and len(alphabet) == 1:
+    if alphabet in 'aeiou':
+        print(f"{alphabet} is a vowel.")
+    else:
+        print(f"{alphabet} is a consonant.")
+else:
+    print("Please enter a single alphabet character.")
+11th
+month_name = input("Enter month name: ").lower()
+days_in_month = {
+    "january": 31, "february": 28, "march": 31, "april": 30,
+    "may": 31, "june": 30, "july": 31, "august": 31,
+    "september": 30, "october": 31, "november": 30, "december": 31
+}
+if month_name in days_in_month:
+    print(f"Number of days in {month_name.capitalize()}: {days_in_month[month_name]}")
+else:
+    print("Invalid month name entered.")
+13th
+def is_leap_year(year):
+    return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
+def get_next_day(year, month, day):
+    days_in_month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+    if is_leap_year(year):
+        days_in_month[2] = 29
+
+    if day < days_in_month[month]:
+        return year, month, day + 1
+    else:
+        if month == 12:
+            return year + 1, 1, 1
+        else:
+            return year, month + 1, 1
+
+# Input date
+year = int(input("Enter year: "))
+month = int(input("Enter month (1-12): "))
+day = int(input("Enter day (1-31): "))
+
+next_year, next_month, next_day = get_next_day(year, month, day)
+print(f"The next day is: {next_year}-{next_month:02d}-{next_day:02d}")
