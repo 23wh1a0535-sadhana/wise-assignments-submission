@@ -1,0 +1,7 @@
+month = input("enter month name")
+if month=="feb":
+    print("28 or 29 days")
+elif month in("jan","mar","may","july","aug","oct","dec"):
+    print("31 days")
+elif month in("apr","june","sep","nov"):
+    print("30 days")
