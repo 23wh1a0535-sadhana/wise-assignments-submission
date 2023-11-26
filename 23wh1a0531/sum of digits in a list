@@ -1,0 +1,9 @@
+# Add no.'s in a given list
+def add(list1):
+    total = 0
+    for x in range(0,len(list1)):
+        total = total + list1[x]
+    print(total)
+
+list1 = [1,2,3,4]
+add(list1)
