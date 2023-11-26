@@ -1,0 +1,11 @@
+date=int(input("Enter the day"))
+month=int(input("Enter the month"))
+year=int(input("Enter the year"))
+c=year%100
+d=year//100
+date1=date+((13*(month-1))//5)+d+ (d//4) +(c//4)-(2*c)
+#print(date1)
+date1=date1//7;
+date1=date%7;
+lst=["sunday","monday","Tuesday","wednesday","Friday","Saturday"]
+print(lst[date1])

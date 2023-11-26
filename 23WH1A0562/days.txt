@@ -1,0 +1,19 @@
+lst=["january",]
+mn=input("enter the month number")
+d=int(input("Enter the date"))
+for i in range(0,len(lst),1):
+    if lst[i]==mn:
+        m=i
+        break
+mn=m+1
+if mn>=3 and mn<=5:
+        print("summer")
+elif(mn==6):
+    if d<=15:
+        print("summer")
+
+elif mn>=6 and mn<=9:
+        print("Rainy")
+
+else:
+    print("winter")
