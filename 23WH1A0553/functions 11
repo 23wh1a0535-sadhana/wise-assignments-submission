@@ -1,0 +1,7 @@
+def longestString():
+    str = "welcome to hyderabad!"
+    list1 = str.split()
+    max_word = max(list1,key=len)
+    a = str.index(max_word)
+    return max_word
+longestString()
