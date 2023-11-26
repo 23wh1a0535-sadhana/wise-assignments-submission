@@ -1,0 +1,13 @@
+#Write a program to find lcm of two numbers
+def findlcm(num1 , num2):
+    if num1 > num2:
+        larger = num1
+    else:
+        larger = num2
+    while True:
+        if ((larger % num1 == 0) and (larger % num2 == 0)):
+            LCM = larger
+            break
+        larger += 1
+    return LCM
+print(findlcm(3 , 4))
