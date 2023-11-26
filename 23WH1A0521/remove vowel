@@ -1,0 +1,8 @@
+def remove_vowel():
+    str1 = "hemalatha"
+    string = ""
+    list1 = ['a','e','i','o','u']
+    for char in str1:
+        if char not in list1:
+            string = string + char
+    print(string)
