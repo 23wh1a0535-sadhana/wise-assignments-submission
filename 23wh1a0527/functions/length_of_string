@@ -1,0 +1,5 @@
+#this is to display the length of the string given by the user
+def lengthofstring():
+    string = input("enter the string: ")
+    print(len(string)) 
+lengthofstring()
