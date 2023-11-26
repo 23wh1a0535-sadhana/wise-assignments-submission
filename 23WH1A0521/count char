@@ -1,0 +1,4 @@
+def countChar():
+    str1 = "pandu"
+    a = list(str1)
+    print(a.count('e'))
