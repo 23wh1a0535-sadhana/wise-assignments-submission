@@ -1,0 +1,2 @@
+name ="metrostation"[::-1]
+print(name)
