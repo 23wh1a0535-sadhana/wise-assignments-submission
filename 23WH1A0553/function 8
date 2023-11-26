@@ -1,0 +1,9 @@
+def city():
+    c=0
+    cname=""
+    cities=['Hyderabad','Secunderabad','Warangal']
+    while cname in cities:
+     cname=1
+    print("Present in State of Telangana")
+    return cities
+city()
