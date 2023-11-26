@@ -1,0 +1,5 @@
+#Write a program to convert a string into a list .
+def strtolist(string):
+    List = list(string)
+    return List
+print(strtolist("bhavani sri "))
