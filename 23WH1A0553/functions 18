@@ -1,0 +1,5 @@
+def DecimalToBinary(num):
+    if dec > 1:
+       DecimalToBinary(dec//2)
+    print(n % 2,end = '')
+dec = int(input("enetr a num: "))
