@@ -1,0 +1,6 @@
+#this is to display the coversion of list into string
+def metro(st):
+    str1 = " "
+    return(str1.join(st))
+st = ["Miyapur","jntu","Kukatpally","KPHB","Gachibowli"]
+print(metro(st))
