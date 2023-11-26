@@ -3,5 +3,5 @@ def rev_string(s):
     for i in s:
         str = i + str
     return str
-s = "Pravallika"
+s = "vaishnavi"
 print(rev_string(s))
