@@ -1,0 +1,7 @@
+import random
+intial_number=25
+progression=[initial_number]
+for_in range(4): # Adjust the range to change the number in the progression
+    initial_number += random.randint(1,10)
+    progression.append(intial_number)
+    print("Random Arithmetic progression:")
