@@ -1,0 +1,5 @@
+#this is to display a conversion of a number into a list of it's digits
+def list_digits():
+    num = (input("enter any number: "))
+    print(list(str(num)))
+list_digits()
