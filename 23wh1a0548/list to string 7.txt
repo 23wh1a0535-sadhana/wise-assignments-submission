@@ -1,0 +1,10 @@
+def list_to_string(input_list):
+    return ''.join(input_list)
+
+# Get input from the user
+try:
+    user_list = input("Enter a list of characters (separated by space): ").split()
+    converted_string = list_to_string(user_list)
+    print(f"The string from the list {user_list} is: {converted_string}")
+except Exception as e:
+    print("An error occurred:", e)

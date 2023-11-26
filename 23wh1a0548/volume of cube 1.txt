@@ -1,0 +1,17 @@
+def cube_volume(side_length):
+    if side_length <= 0:
+        return "Side length should be a positive number."
+    else:
+        volume = side_length ** 3
+        return volume
+
+# Get input from the user
+try:
+    side = float(input("Enter the side length of the cube: "))
+    result = cube_volume(side)
+    if isinstance(result, str):
+        print(result)
+    else:
+        print(f"The volume of the cube with side length {side} units is: {result} cubic units")
+except ValueError:
+    print("Please enter a valid number for the side length.")

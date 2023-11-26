@@ -1,0 +1,10 @@
+def string_to_list_using_iteration(input_string):
+    return [char for char in input_string]
+
+# Get input from the user
+try:
+    user_input = input("Enter a string: ")
+    string_list = string_to_list_using_iteration(user_input)
+    print(f"The list from the string '{user_input}' is: {string_list}")
+except Exception as e:
+    print("An error occurred:", e)

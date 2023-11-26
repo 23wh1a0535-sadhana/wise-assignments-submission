@@ -1,0 +1,13 @@
+import math
+
+try:
+    num = float(input("Enter a number: "))
+
+    # Calculate the square root
+    square_root = math.sqrt(num)
+    
+    print(f"The square root of {num} is: {square_root}")
+except ValueError:
+    print("Please enter a valid number.")
+except Exception as e:
+    print("An error occurred:", e)
