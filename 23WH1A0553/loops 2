@@ -1,0 +1,7 @@
+a = int(input("enter a number"))
+while(a>0):
+    if(a<9 and a>=1):
+            print("guessed number is : ",a)
+            break
+    else:
+            print("the number is not in range")
