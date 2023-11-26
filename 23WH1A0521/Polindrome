@@ -1,0 +1,6 @@
+def isPalindrome(str1):
+    str1 = "madam"
+    if(str1 == str1[::-1]):
+        return "The_string_is_a_palindrome."
+    else:
+        return "The_string_is_not_a_palindrome."
