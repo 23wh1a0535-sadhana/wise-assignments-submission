@@ -1,0 +1,8 @@
+base = int(input("enter base of triangle: "))
+height = int(input("enter height of triangle: "))
+hypotenuse = int(input("enter hypotenuse of triangle: "))
+hyp = (base*base) + (height*height)
+if (hypotenuse*hypotenuse) == hyp:
+    print("It is a right angled triangle.")
+else:
+    print("It is not a right angled triangle.")
