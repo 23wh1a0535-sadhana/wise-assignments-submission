@@ -1,0 +1,4 @@
+s = "vaishnavi"
+x = list(s)
+print(x)
+     
