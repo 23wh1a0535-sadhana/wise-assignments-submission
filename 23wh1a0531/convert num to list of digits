@@ -1,0 +1,6 @@
+# number to list of its digits
+def list_of_digits(num):
+    list = [int(x) for x in str(num)]
+    print(",\n",list)
+
+list_of_digits(123)
