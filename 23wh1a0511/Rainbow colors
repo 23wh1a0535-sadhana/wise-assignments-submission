@@ -1,0 +1,6 @@
+#colors of rainbow
+def rainbow(s):
+    colors = " "
+    return(colors.join(s))
+s = ["violet","indigo","blue","green","yellow","orange","red"]
+print(rainbow(s))
