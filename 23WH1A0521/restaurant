@@ -1,0 +1,44 @@
+def menu():
+    dishes =["1. garlic bread","2. noodles","3. rice"]
+    for i in dishes:
+        print(i)
+def sub_menu():
+    c = int(input("enter ur choice"))
+    rice_dishes = {"1. veg fried rice","2. biryani","3. egg fried rice","4. chicken fried rice","5. pulao"}
+    chicken_dishes = {"1. chicken lolipop","2. chicken 65","3. chicken kebab","4. chiken mandi","5. chicken noodles"}
+    noodles_dishes = {"1. veg noodles","2. mushroom noodles","3. egg noodles","4. chicken noodles","5. paneer noodles"}
+
+    if c==1:
+        for x in rice_dishes:
+            print(x)
+    elif c==2:
+        for x in chicken_dishes:
+                print(x)
+    elif c==3:
+        for x in noodle_dishes:
+            print(x)
+    else:
+            print("wrong choice")
+def price():
+    c = int(input("enter ur choice"))
+    rice_dishes = {"1. veg fried rice":80,"2. biryani":250,"3. egg fried rice":80,"4. chicken fried rice":100,"5. pulao":50}
+    chicken_dishes = {"1. chicken lolipop":250,"2. chicken 65":350,"3. chicken kebab":450,"4. chiken mandi":690,"5. chicken noodles":150}
+    noodles_dishes = {"1. veg noodles":80,"2. mushroom noodles":120,"3. egg noodles":100,"4. chicken noodles":120,"5. paneer noodles":120}
+    return (rice_dishes)
+    return (chicken_dishes)
+    return (noodle_dishes)
+    if c==1:
+        for x in rice_dishes:
+            print(x)
+    elif c==2:
+        for x in chicken_dishes:
+                print(x)
+    elif c==3:
+        for x in noodle_dishes:
+            print(x)
+    else:
+            print("wrong choice")
+
+
+
+
