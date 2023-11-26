@@ -1,0 +1,3 @@
+string=input("Enter a string")
+list=[i for i in string]
+print(list)
