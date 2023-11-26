@@ -1,0 +1,10 @@
+s = input("enter a string")
+num=0
+let=0
+for i in s:
+    if (i.isdigit()):
+        num+=1
+    else:
+        let+=1
+print("digits:",num)
+print("characters:",let)
