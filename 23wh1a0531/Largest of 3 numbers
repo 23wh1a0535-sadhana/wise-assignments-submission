@@ -1,0 +1,14 @@
+# Largest of 3 numbers
+def largest(a,b,c):
+    if a > b:
+        if a > c:
+            print(a)
+        else:
+            print(c)
+    else:
+        if b > c:
+            print(b)
+        else:
+            print(c)
+
+largest(1,2,3)
