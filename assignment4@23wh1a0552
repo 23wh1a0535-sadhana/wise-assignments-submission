@@ -1,6 +1,0 @@
-#4.
-num = int(input("Enter a number"))
-print("Given number :  ", num)
-list = [int(x) for x in str(num)]
-
-print("List of number: \n",list)
