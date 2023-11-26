@@ -23,9 +23,9 @@ def price():
 
     g= int(input("Enter your item : "))
     if g <= 5:
-        print("Here you go ..!!")
+        print("Here you go")
     else:
-        print("Check again .. sorry ")
+        print("Check again")
     i = g-1
     if c <= 3:
         if c == 1:
@@ -38,4 +38,5 @@ def price():
             r = list(noodles_dishes.values())[i]
             print(r)
     else:
-        print("Please check your choice again...!!!")
+        print("Please check your choice again")
+    price()
