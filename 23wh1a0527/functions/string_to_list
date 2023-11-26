@@ -1,0 +1,5 @@
+#this is to display the conversion of a string to a list
+def stringtolist():
+    string = input("enter a string: ")
+    print(string.split())
+stringtolist()
