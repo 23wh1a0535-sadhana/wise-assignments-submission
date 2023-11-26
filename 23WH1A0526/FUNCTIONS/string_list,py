@@ -1,0 +1,6 @@
+# Function to convert string to list.
+def stringToList(s):
+    list1 = list(s.split(" "))
+    return list1
+str1 = "Today is a holiday !"
+print(stringToList(str1))
