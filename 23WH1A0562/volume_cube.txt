@@ -1,0 +1,5 @@
+#cube volume:
+def volume(cube_edge):
+    cube_volume=(cube_edge)(cube_edge)(cube_edge)
+    print("volume of the cube:",str(cube_volume))
+volume(5)

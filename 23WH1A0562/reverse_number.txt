@@ -1,0 +1,7 @@
+#reverse of a number
+def digit(num):
+    rev = num[::-1]
+    return rev
+num = input("num : ")
+r = digit(num)
+print(r)

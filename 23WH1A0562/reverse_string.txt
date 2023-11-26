@@ -1,0 +1,7 @@
+#reverse of a string
+def word(word):
+    rev = word[::-1]
+    return rev
+str1 = input("Enter a srtring: ")
+result = word(str1)
+print("Reverse of a string :", result)

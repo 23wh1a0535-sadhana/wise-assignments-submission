@@ -1,0 +1,7 @@
+#convert string to list
+#string=str(input("Enter a string"))
+def convert(string):
+    li=list(string.split(""))
+    return li
+string=input("Enter a string")
+print(convert(string))

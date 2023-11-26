@@ -1,0 +1,8 @@
+#seven colours
+def print_rainbow_color(color):
+    print(f"The color of the rainbow is {color}")
+
+def print_rainbow():
+    colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+    print_rainbow_color(colors)
+print_rainbow()

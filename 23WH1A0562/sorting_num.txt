@@ -1,0 +1,7 @@
+#sorting numbers
+def sort_array(arr):
+    sorted_arr = sorted(arr)
+    return sorted_arr
+array = [1,5,89,3325546,1,5,6,789,678,0]
+sorted_array = sort_array(array)
+print(sorted_array)

@@ -1,0 +1,9 @@
+#remove vowels in given string
+def str1():
+    vowels = "aeiouAEIOU"
+    str2 = input("enter any string : ")
+    for char in str2:
+        if char in vowels:
+            str2 = str2.replace(char,"")
+    return str2
+str1()

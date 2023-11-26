@@ -1,0 +1,7 @@
+#square root function
+def sq():
+    n = int(input("n1 = "))
+    import math
+    r = math.sqrt(n)
+    return r
+sq()

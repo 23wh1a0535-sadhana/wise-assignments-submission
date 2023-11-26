@@ -1,0 +1,15 @@
+#sum of digits in a list
+def sum():
+    list=[]
+    n = int(input("n : "))
+    print("Enter the elements: ")
+    for x in range(0,n):
+        emt = int(input( ))
+        list.append(emt)
+    s = 0 
+    i = 0 
+    while i<n:
+        s = s + list[i]
+        i+=1
+    return s
+sum()
