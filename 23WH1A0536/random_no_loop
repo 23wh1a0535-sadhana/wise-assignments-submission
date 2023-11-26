@@ -1,0 +1,9 @@
+#to guess random number from 1-9
+num = int(input("Enter a number between 1 and 9:"))
+while 1 :
+    guess = int(input("Enter your guess between 1 and 9: "))
+    if guess == num:
+        print("Congratulations! You guessed it right!")
+        break
+    else :
+        print("Your guess was wrong.")
