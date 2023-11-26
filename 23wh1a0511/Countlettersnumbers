@@ -1,0 +1,4 @@
+string = input("enter a string: ")
+alphabets = sum(a.isalpha() for a in string)
+numbers = sum(a.isdigit() for a in string)
+print(f"Count of letters = {alphabets} and numbers = {numbers}")
