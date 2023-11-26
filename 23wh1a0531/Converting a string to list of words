@@ -1,0 +1,8 @@
+# String to list of words convertion
+def str_lists(a):
+    b = list(a.split(" "))
+    print(b)
+
+
+a = 'Hi I am Leighna'
+str_lists(a)
