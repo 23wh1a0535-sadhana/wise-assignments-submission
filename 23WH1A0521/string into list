@@ -1,0 +1,4 @@
+def StrTolist():
+    str1 = "anvi"
+    list=[i for i in str1]
+    return list
