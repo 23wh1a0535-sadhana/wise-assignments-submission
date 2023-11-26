@@ -1,0 +1,4 @@
+def stringtolist():
+    string = input("enter any string: ")
+    print(string.split())
+stringtolist()
