@@ -1,0 +1,6 @@
+#AssignmentQ4
+num = int(input("Enter a number"))
+print("Given number : \n", num)
+res = [int(x) for x in str(num)]
+# Result
+print("List of number: \n",res)
