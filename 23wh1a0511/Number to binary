@@ -1,0 +1,4 @@
+def decimalToBinary():
+    n = int(input("enter a number: "))
+    print(bin(n).replace("0b", ""))
+decimalToBinary()
