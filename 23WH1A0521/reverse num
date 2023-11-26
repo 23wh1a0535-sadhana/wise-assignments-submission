@@ -1,0 +1,8 @@
+def reverseOfNum():
+    num = 123
+    revs_number = 0
+    while (num > 0):
+       remainder = num % 10
+       revs_number = (revs_number * 10) + remainder
+       num = num // 10
+    return revs_number
