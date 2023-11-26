@@ -1,0 +1,7 @@
+# Calculate length of string
+def string_length(string):
+    print(len(string))
+
+
+string = "Hello"
+string_length(string)
