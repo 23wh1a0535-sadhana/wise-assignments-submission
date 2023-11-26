@@ -1,0 +1,60 @@
+# To make a restaurant menu
+def menu():
+    rice_dishes = {"1.Veg Fries Rice":180,"2.Veg Biryani":250,"3.Veg Pulao":220,"4.Ghee Rice":120,"5.Curd Rice":100}
+    chicken = {"1.Chicken Biryani":330,"2.Chicken Mandi":450,"3.Chicken Lollipop":220,"4.Chicken 65":250,"5.Chicken Shawarma":180}
+    noodles = {"1.Veg Noodles":170,"2.Mushroom Noodles":190,"3.Chicken Noodles":200,"4.Egg Noodles":175}
+    print(f"1.Rice dishes = {rice_dishes.keys()}")
+    print(f"2.Chicken dishes = {chicken.keys()}")
+    print(f"3.Noodles dishes = {noodles.keys()}")
+    c = int (input("Enter your Choice for above dishes :"))
+    if c == 1:
+        for x in rice_dishes:
+            print(x)
+        c1 = int(input("Enter your choice in above varieties :"))
+        if c1 == 1:
+            print(f"Price = {rice_dishes['1.Veg Fries Rice']}")
+        elif c1 == 2:
+            print(f"Price = {rice_dishes['2.Veg Biryani']}")
+        elif c1 == 3:
+            print(f"Price = {rice_dishes['3.Veg Pulao']}")
+        elif c1 == 4:
+            print(f"Price = {rice_dishes['4.Ghee Rice']}")
+        elif c1 == 5:
+            print(f"Price = {rice_dishes['5.Curd Rice']}")
+        else:
+            print("Sorry! Invalid Choice")
+
+    elif c==2:
+        for x in chicken:
+            print(x)
+        c2 = int(input("Enter your choice in above varieties :"))
+        if c2 == 1:
+            print(f"Price = {chicken['1.Chicken Biryani']}")
+        elif c2 == 2:
+            print(f"Price = {chicken['2.Chicken Mandi']}")
+        elif c2 == 3:
+            print(f"Price = {chicken['3.Chicken Lollipop']}")
+        elif c2 == 4:
+            print(f"Price = {chicken['4.Chicken 65']}")
+        elif c2 == 5:
+            print(f"Price = {chicken['5.Chicken Shawarma']}")
+        else:
+            print("Sorry! Invalid Choice")
+    elif c==3:
+        for x in noodles:
+            print(x)
+        c3 = int(input("Enter your choice in above varieties :"))
+        if c3 == 1:
+            print(f"Price = {noodles['1.Veg Noodles']}")
+        elif c3 == 2:
+            print(f"Price = {noodles['2.Mushroom Noodles']}")
+        elif c3 == 3:
+            print(f"Price = {noodles['3.Chicken Noodles']}")
+        elif c3 == 4:
+            print(f"Price = {noodles['4.Egg Noodles']}")
+        else:
+            print("Sorry! Invalid Choice")
+        
+    else:
+        print("Sorry! Invalid Choice")
+menu()
