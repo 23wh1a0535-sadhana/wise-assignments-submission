@@ -1,0 +1,6 @@
+n=6
+fi_digit=25
+cd=5
+for i in range(6):
+    fi_digit+=cd
+    print(fi_digit)
