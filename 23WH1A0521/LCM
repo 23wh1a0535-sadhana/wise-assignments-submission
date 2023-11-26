@@ -1,0 +1,15 @@
+def Lcm():
+    numOne = 12
+    numTwo = 13
+
+    if numOne>numTwo:
+        lcm = numOne
+    else:
+        lcm = numTwo
+
+    while True:
+       if lcm%numOne==0 and lcm%numTwo==0:
+           break
+       else:
+           lcm = lcm + 1
+    return lcm
