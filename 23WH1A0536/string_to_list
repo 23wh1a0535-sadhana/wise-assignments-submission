@@ -1,0 +1,4 @@
+#to convert a string into list
+s=input("Enter a string")
+x=[i for i in s]
+print(x)
