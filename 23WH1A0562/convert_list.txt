@@ -1,0 +1,5 @@
+def convert_string(input_string):
+    return list(input_string)
+string="Sai"
+list=convert_string(string)
+print(list)

@@ -1,0 +1,9 @@
+#largest string in list
+def list1():
+    list = ['gfg', 'is', 'best', 'for', 'geeks']
+    maxlen = 0
+    for x in list:
+        if len(x) > maxlen:
+            maxlen = len(x)
+            res = x
+print("Max length string : " , res)

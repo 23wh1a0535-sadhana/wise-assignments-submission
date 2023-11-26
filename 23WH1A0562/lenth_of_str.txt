@@ -1,0 +1,6 @@
+#length of string
+def length():
+    string = input("string : ")
+    length1 = len(string)
+    return length1
+length()

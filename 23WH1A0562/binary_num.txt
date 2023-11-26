@@ -1,0 +1,11 @@
+#binary number
+def binary(num):
+    s = ''
+    while num > 0:
+        r = num % 2
+        s = str(r) + s
+        num = num // 2
+    return s
+number = int(input("Enter number: "))
+result = binary(number)
+print(f"binary number is : {result}")
