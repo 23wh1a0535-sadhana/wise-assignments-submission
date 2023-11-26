@@ -1,0 +1,13 @@
+import random
+
+def generate_arithmetic_progression(initial_number, common_difference, terms):
+    progression = [initial_number + i * common_difference for i in range(terms)]
+    return progression
+
+initial_number = 25
+common_difference = random.randint(1, 10) # You can adjust the range as needed
+terms = 5 # You can change the number of terms as needed
+
+random_ap = generate_arithmetic_progression(initial_number, common_difference, terms)
+print(f"Random Arithmetic Progression: {random_ap}")
+     
