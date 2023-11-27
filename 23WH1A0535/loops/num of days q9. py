@@ -1,4 +1,4 @@
-month_name=input("Enter a month name in lowercase: ")
+month_name =input("Enter a month name in lowercase: ")
 if month_name=="january":
     print("31 days")
 elif month_name=="february":
