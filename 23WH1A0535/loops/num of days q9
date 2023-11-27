@@ -1,0 +1,27 @@
+month_name=input("Enter a month name in lowercase: ")
+if month_name=="january":
+    print("31 days")
+elif month_name=="february":
+    print("28 days")
+elif month_name=="march":
+    print("31 days")
+elif month_name=="april":
+    print("30 days")
+elif month_name=="may":
+    print("31 days")
+elif month_name=="june":
+    print("30 days")
+elif month_name=="july":
+    print("31 days")
+elif month_name=="august":
+    print("31 days")
+elif month_name=="september":
+    print("30 days")
+elif month_name=="october":
+    print("31 days")
+elif month_name=="november":
+    print("30 days")
+elif month_name=="december":
+    print("31 days")
+else:
+    print("You have entered wrong month name")
