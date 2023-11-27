@@ -1,0 +1,44 @@
+def menu():
+    dishes = ["1. Rice" , "2. Chicken" , "3. Noodles"]
+    for i in dishes:
+        print(i)
+
+def price():
+    menu()
+    rice_dishes = {"1. Veg Fried Rice" : 65 , "2. Veg Biriyani" : 75 , "3. Veg Pulao" : 70 , "4. Ghee rice" : 80 , "5. Curd rice" : 50}
+    chicken_dishes = {"1. Chicken biriyani" : 180 , "2. Chilly chicken" : 85 , "3. Chicken 65"  : 100 , "4. Chicken manchuriya " : 90 , "5. Chicken lollipop" : 120}
+    noodles_dishes = {"1. Veg noodles" : 80 , "2. Egg noodles" : 90 , "3. Chicken noodles" : 100 , "4. Schezwan noodles" : 120 , "5. Cup noodles" : 50}
+    choice = int(input("Enter your choice : "))
+    if choice == 1:
+        for x in rice_dishes:
+            print(x)
+    elif choice == 2:
+        for x in chicken_dishes:
+            print(x)
+    elif choice == 3:
+        for x in noodles_dishes:
+            print(x)
+    else:
+        print("Sorry a wrong choice enterd..!!")
+
+    item = int(input("Enter your item number : "))
+    if item <= 5:
+        print("The item price is : ")
+    else:
+        print("Sorry!!  Please check again..")
+    i = item - 1
+    if choice <= 3:
+        if choice == 1:
+            p = list(rice_dishes.values())[i]
+            print(p)
+        elif choice == 2:
+            q = list(chicken_dishes.values())[i]
+            print(q)
+        elif choice == 3:
+            r = list(noodles_dishes.values())[i]
+            print(r)
+    else:
+        print("Please check your choice again...!!!")
+
+
+price()
