@@ -1,0 +1,26 @@
+print("Welcome to Local Representative Elections!!!")
+print("The contenstants are : ")
+Nominees = ["Sanjay" , "Manoja" , "Revanth" , "Raju" , "Hanumanth" ]
+for i in Nominees:
+    print(i)
+print("Dear Voters, \n")
+for i in range(len(Nominees)):
+    print(f"If you wish to vote for {Nominees[i]} , Enter {i}")
+count =[0 , 0 , 0 , 0 , 0]
+no_of_voters = int(input("Number of people are going to vote today : "))
+for i in range(no_of_voters):
+    vote = int(input(f"Dear voter {i+1}, Who is ur selection as your representative : "))
+    for j in range(len(Nominees)):
+        if j == vote:
+            count[j] += 1
+            break
+print("The results are out and are as follows:")
+for i in range(len(Nominees)):
+    print(f"Contestant {Nominees[i]} has recieved {count[i]} votes")
+maxcountindex = 0
+maxcount = count[0]
+for i in range(len(count)):
+    if count[i] > maxcount:
+        maxcount = count[i]
+        maxcountindex = i
+print(f"And, the winner is.......\n{Nominees[maxcountindex]}")
