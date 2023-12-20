@@ -1,3 +1,5 @@
+#4. Write a Python program to count the same pair in two given lists. use map() function.
+
 def count_same_pairs(list1, list2):
     # Use map to create pairs from corresponding elements of both lists
     pairs = list(map(lambda x, y: (x, y), list1, list2))
