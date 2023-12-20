@@ -14,4 +14,9 @@ def generateCollatz(num:int):
             num //= 2
         else:
             num = 3 * num + 1
+
+
+generateCollatz(7)
+
+#General format
 generateCollatz(int(input("Enter the number for which the collatz sequence is to be generated: ")))
