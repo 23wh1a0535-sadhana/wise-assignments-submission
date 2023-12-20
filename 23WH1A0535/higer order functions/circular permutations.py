@@ -1,3 +1,8 @@
+#Given two strings alpha and beta check if they are circular permutations of each other. 
+#For example: "abcde" and "bcdea" are circular permutations, while "abcde" and "abdce" are NOT 
+#Note: The problems in this list are from a range of topics. 
+#They should be understood clearly and used when you need a filler or a "Wow! Thats kewl!!" reaction.
+
 def are_circular_permutations(alpha, beta):
     if len(alpha) != len(beta):
         return False
