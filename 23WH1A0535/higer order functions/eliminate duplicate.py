@@ -1,4 +1,6 @@
-#Python program to convert all the characters into uppercase and lowercase  and eliminate duplicate letters from a given sequence.Using ,map()function
+#3. Write a Python program to convert all the characters into uppercase and lowercase and eliminate duplicate letters from a given sequence. 
+#Use the map() function.
+
 def change_cases(s):
   return str(s).upper(), str(s).lower()
 characters ={'a','b','c','d','e','c','d','i'}
